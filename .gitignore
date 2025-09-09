@@ -1,0 +1,54 @@
+# Build outputs
+/target/
+/build/
+/out/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEs and editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+logs/
+*.tmp
+*.swp
+*.swo
+
+# Maven / Gradle
+.gradle/
+**/build/**
+
+# Java / tooling
+hs_err_pid*
+replay_pid*
+
+# Data/cache (ignore large or generated data)
+*.csv
+*.tsv
+*.json
+*.bin
+*.dat
+
+# Local resources
+/src/main/resources/
+
+# Test reports
+surefire-reports/
+jacoco.exec
+
+*.Zone.Identifier
